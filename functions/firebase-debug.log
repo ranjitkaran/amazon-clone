@@ -1,0 +1,1030 @@
+[debug] [2022-06-14T10:20:34.187Z] ----------------------------------------------------------------------
+[debug] [2022-06-14T10:20:34.189Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\msi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2022-06-14T10:20:34.190Z] CLI Version:   11.0.1
+[debug] [2022-06-14T10:20:34.190Z] Platform:      win32
+[debug] [2022-06-14T10:20:34.190Z] Node Version:  v16.14.2
+[debug] [2022-06-14T10:20:34.191Z] Time:          Tue Jun 14 2022 15:50:34 GMT+0530 (India Standard Time)
+[debug] [2022-06-14T10:20:34.191Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-06-14T10:20:34.264Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-14T10:20:34.264Z] > authorizing via signed-in user (ranjitkaran360@gmail.com)
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[debug] [2022-06-14T10:20:34.305Z] [hub] writing locator at C:\Users\msi\AppData\Local\Temp\hub-e-commerce-website-proj-sem6.json
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage\u001b[22m"}}
+[info] +  functions: Using node@16 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Using node@16 from host."}}
+[debug] [2022-06-14T10:20:34.340Z] defaultcredentials: writing to file C:\Users\msi\AppData\Roaming\firebase\ranjitkaran360_gmail_com_application_default_credentials.json
+[debug] [2022-06-14T10:20:34.345Z] Setting GAC to C:\Users\msi\AppData\Roaming\firebase\ranjitkaran360_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\msi\\AppData\\Roaming\\firebase\\ranjitkaran360_gmail_com_application_default_credentials.json"}}
+[debug] [2022-06-14T10:20:34.349Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/e-commerce-website-proj-sem6/adminSdkConfig [none]
+[debug] [2022-06-14T10:20:34.912Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/e-commerce-website-proj-sem6/adminSdkConfig 200
+[debug] [2022-06-14T10:20:34.912Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/e-commerce-website-proj-sem6/adminSdkConfig {"projectId":"e-commerce-website-proj-sem6","storageBucket":"e-commerce-website-proj-sem6.appspot.com","locationId":"us-central"}
+[debug] [2022-06-14T10:20:34.926Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/e-commerce-website-proj-sem6/sites 
+[debug] [2022-06-14T10:20:36.968Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/e-commerce-website-proj-sem6/sites 200
+[debug] [2022-06-14T10:20:36.968Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/e-commerce-website-proj-sem6/sites {"sites":[{"name":"projects/e-commerce-website-proj-sem6/sites/e-commerce-website-proj-sem6","defaultUrl":"https://e-commerce-website-proj-sem6.web.app","appId":"1:1000892684782:web:40fd6fb335487d1e5d16ff","type":"DEFAULT_SITE"}]}
+[debug] [2022-06-14T10:20:36.969Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/e-commerce-website-proj-sem6/webApps/1:1000892684782:web:40fd6fb335487d1e5d16ff/config [none]
+[debug] [2022-06-14T10:20:38.378Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/e-commerce-website-proj-sem6/webApps/1:1000892684782:web:40fd6fb335487d1e5d16ff/config 200
+[debug] [2022-06-14T10:20:38.379Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/e-commerce-website-proj-sem6/webApps/1:1000892684782:web:40fd6fb335487d1e5d16ff/config {"projectId":"e-commerce-website-proj-sem6","appId":"1:1000892684782:web:40fd6fb335487d1e5d16ff","storageBucket":"e-commerce-website-proj-sem6.appspot.com","locationId":"us-central","apiKey":"AIzaSyCsQtYiRW2Y-MJd5EZWBfbUnFmJcC5OjwM","authDomain":"e-commerce-website-proj-sem6.firebaseapp.com","messagingSenderId":"1000892684782","measurementId":"G-ZDW2FS76W8"}
+[info] i  hosting: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[debug] [2022-06-14T10:20:38.419Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-06-14T10:20:38.419Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-06-14T10:20:38.419Z] Starting Emulator UI with command {"binary":"node","args":["--dns-result-order=ipv4first","C:\\Users\\msi\\.cache\\firebase\\emulators\\ui-v1.7.0\\server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"--dns-result-order=ipv4first\",\"C:\\\\Users\\\\msi\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.7.0\\\\server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2022-06-14T10:20:38.545Z] Web / API server started at localhost:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at localhost:4000\n"}}
+[info] i  functions: Watching "C:\Users\msi\Desktop\i-kart\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\msi\\Desktop\\i-kart\\functions\" for Cloud Functions..."}}
+[debug] [2022-06-14T10:20:38.690Z] Validating nodejs source
+[debug] [2022-06-14T10:20:41.395Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^9.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-06-14T10:20:41.395Z] Building nodejs source
+[debug] [2022-06-14T10:20:41.395Z] Analyzing nodejs backend spec
+[debug] [2022-06-14T10:20:41.397Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-06-14T10:20:41.638Z] Serving at port 9005
+
+[debug] [2022-06-14T10:20:41.751Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2022-06-14T10:20:41.760Z] shutdown requested via /__/quitquitquit
+
+[info] +  functions[us-central1-api]: http function initialized (http://localhost:5001/e-commerce-website-proj-sem6/us-central1/api). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://localhost:5001/e-commerce-website-proj-sem6/us-central1/api)."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://localhost:4000                │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ localhost:5001 │ http://localhost:4000/functions │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Hosting   │ localhost:5000 │ n/a                             │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2022-06-14T10:22:05.333Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-06-14T10:22:05.334Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-06-14T10:22:05.334Z] Accepted request GET /e-commerce-website-proj-sem6/us-central1/api --> us-central1-api
+[debug] [2022-06-14T10:22:05.349Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2022-06-14T10:22:05.351Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2022-06-14T10:22:05.351Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-06-14T10:22:05.352Z] [worker-us-central1-api-bfa4325c-4d85-4749-abfe-3c76bab51e5b]: Assigning socketPath: \\?\pipe\C:\Users\msi\Desktop\i-kart\functions\3552 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-bfa4325c-4d85-4749-abfe-3c76bab51e5b]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\msi\\Desktop\\i-kart\\functions\\3552"}}
+[debug] [2022-06-14T10:22:05.352Z] [worker-us-central1-api-bfa4325c-4d85-4749-abfe-3c76bab51e5b]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-bfa4325c-4d85-4749-abfe-3c76bab51e5b]: BUSY"}}
+[debug] [2022-06-14T10:22:06.798Z] [runtime-status] [3552] Functions runtime initialized. {"cwd":"C:\\Users\\msi\\Desktop\\i-kart\\functions","node_version":"16.14.2"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3552] Functions runtime initialized. {\"cwd\":\"C:\\\\Users\\\\msi\\\\Desktop\\\\i-kart\\\\functions\",\"node_version\":\"16.14.2\"}"}}
+[debug] [2022-06-14T10:22:06.799Z] [runtime-status] [3552] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3552] Disabled runtime features: undefined"}}
+[debug] [2022-06-14T10:22:06.801Z] [runtime-status] [3552] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"C:\\Users\\msi\\Desktop\\i-kart\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3552] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"C:\\\\Users\\\\msi\\\\Desktop\\\\i-kart\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-06-14T10:22:06.803Z] [runtime-status] [3552] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"C:\\Users\\msi\\Desktop\\i-kart\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3552] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"C:\\\\Users\\\\msi\\\\Desktop\\\\i-kart\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-06-14T10:22:06.804Z] [runtime-status] [3552] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3552] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-06-14T10:22:06.804Z] [runtime-status] [3552] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"C:\\Users\\msi\\Desktop\\i-kart\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3552] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"C:\\\\Users\\\\msi\\\\Desktop\\\\i-kart\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-06-14T10:22:06.853Z] [runtime-status] [3552] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3552] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-06-14T10:22:06.854Z] [runtime-status] [3552] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.21.2","resolution":"C:\\Users\\msi\\Desktop\\i-kart\\functions\\node_modules\\firebase-functions\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3552] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"C:\\\\Users\\\\msi\\\\Desktop\\\\i-kart\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-06-14T10:22:06.855Z] [runtime-status] [3552] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"C:\\Users\\msi\\Desktop\\i-kart\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3552] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"C:\\\\Users\\\\msi\\\\Desktop\\\\i-kart\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-06-14T10:22:06.856Z] [runtime-status] [3552] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"C:\\Users\\msi\\Desktop\\i-kart\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3552] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"C:\\\\Users\\\\msi\\\\Desktop\\\\i-kart\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-06-14T10:22:06.857Z] [runtime-status] [3552] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"C:\\Users\\msi\\Desktop\\i-kart\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3552] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"C:\\\\Users\\\\msi\\\\Desktop\\\\i-kart\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-06-14T10:22:06.857Z] [runtime-status] [3552] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.3.0","resolution":"C:\\Users\\msi\\Desktop\\i-kart\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3552] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"C:\\\\Users\\\\msi\\\\Desktop\\\\i-kart\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-06-14T10:22:07.022Z] [runtime-status] [3552] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3552] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-06-14T10:22:07.024Z] [runtime-status] [3552] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3552] Running api in signature http"}}
+[debug] [2022-06-14T10:22:07.028Z] [runtime-status] [3552] Attempting to listen to socketPath: \\?\pipe\C:\Users\msi\Desktop\i-kart\functions\3552 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3552] Attempting to listen to socketPath: \\\\?\\pipe\\C:\\Users\\msi\\Desktop\\i-kart\\functions\\3552"}}
+[debug] [2022-06-14T10:22:07.033Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-06-14T10:22:07.033Z] [functions] Got req.url=/e-commerce-website-proj-sem6/us-central1/api, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-commerce-website-proj-sem6/us-central1/api, mapping to path=/"}}
+[debug] [2022-06-14T10:22:07.041Z] [runtime-status] [3552] Ephemeral server handling GET request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3552] Ephemeral server handling GET request"}}
+[debug] [2022-06-14T10:22:07.048Z] [runtime-status] [3552] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3552] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-06-14T10:22:07.062Z] [worker-us-central1-api-bfa4325c-4d85-4749-abfe-3c76bab51e5b]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-bfa4325c-4d85-4749-abfe-3c76bab51e5b]: IDLE"}}
+[debug] [2022-06-14T10:22:07.062Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-06-14T10:22:07.083Z] Functions emulator received unknown request at path /favicon.ico
+[debug] [2022-06-14T10:23:43.859Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-06-14T10:23:43.860Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-06-14T10:23:43.860Z] Accepted request GET /e-commerce-website-proj-sem6/us-central1/api --> us-central1-api
+[debug] [2022-06-14T10:23:43.860Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-06-14T10:23:43.861Z] [worker-us-central1-api-bfa4325c-4d85-4749-abfe-3c76bab51e5b]: Assigning socketPath: \\?\pipe\C:\Users\msi\Desktop\i-kart\functions\3552 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-bfa4325c-4d85-4749-abfe-3c76bab51e5b]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\msi\\Desktop\\i-kart\\functions\\3552"}}
+[debug] [2022-06-14T10:23:43.861Z] [worker-us-central1-api-bfa4325c-4d85-4749-abfe-3c76bab51e5b]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-bfa4325c-4d85-4749-abfe-3c76bab51e5b]: BUSY"}}
+[debug] [2022-06-14T10:23:43.864Z] [runtime-status] [3552] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3552] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-06-14T10:23:43.867Z] [runtime-status] [3552] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3552] Running api in signature http"}}
+[debug] [2022-06-14T10:23:43.869Z] [runtime-status] [3552] Attempting to listen to socketPath: \\?\pipe\C:\Users\msi\Desktop\i-kart\functions\3552 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3552] Attempting to listen to socketPath: \\\\?\\pipe\\C:\\Users\\msi\\Desktop\\i-kart\\functions\\3552"}}
+[debug] [2022-06-14T10:23:43.875Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-06-14T10:23:43.877Z] [functions] Got req.url=/e-commerce-website-proj-sem6/us-central1/api, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-commerce-website-proj-sem6/us-central1/api, mapping to path=/"}}
+[debug] [2022-06-14T10:23:43.881Z] [runtime-status] [3552] Ephemeral server handling GET request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3552] Ephemeral server handling GET request"}}
+[debug] [2022-06-14T10:23:43.884Z] [runtime-status] [3552] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3552] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-06-14T10:23:43.886Z] [worker-us-central1-api-bfa4325c-4d85-4749-abfe-3c76bab51e5b]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-bfa4325c-4d85-4749-abfe-3c76bab51e5b]: IDLE"}}
+[debug] [2022-06-14T10:23:43.886Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-06-14T10:23:49.189Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-06-14T10:23:49.189Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-06-14T10:23:49.189Z] Accepted request GET /e-commerce-website-proj-sem6/us-central1/api/qazi --> us-central1-api
+[debug] [2022-06-14T10:23:49.189Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-06-14T10:23:49.189Z] [worker-us-central1-api-bfa4325c-4d85-4749-abfe-3c76bab51e5b]: Assigning socketPath: \\?\pipe\C:\Users\msi\Desktop\i-kart\functions\3552 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-bfa4325c-4d85-4749-abfe-3c76bab51e5b]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\msi\\Desktop\\i-kart\\functions\\3552"}}
+[debug] [2022-06-14T10:23:49.189Z] [worker-us-central1-api-bfa4325c-4d85-4749-abfe-3c76bab51e5b]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-bfa4325c-4d85-4749-abfe-3c76bab51e5b]: BUSY"}}
+[debug] [2022-06-14T10:23:49.190Z] [runtime-status] [3552] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3552] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-06-14T10:23:49.193Z] [runtime-status] [3552] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3552] Running api in signature http"}}
+[debug] [2022-06-14T10:23:49.194Z] [runtime-status] [3552] Attempting to listen to socketPath: \\?\pipe\C:\Users\msi\Desktop\i-kart\functions\3552 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3552] Attempting to listen to socketPath: \\\\?\\pipe\\C:\\Users\\msi\\Desktop\\i-kart\\functions\\3552"}}
+[debug] [2022-06-14T10:23:49.197Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-06-14T10:23:49.198Z] [functions] Got req.url=/e-commerce-website-proj-sem6/us-central1/api/qazi, mapping to path=/qazi {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-commerce-website-proj-sem6/us-central1/api/qazi, mapping to path=/qazi"}}
+[debug] [2022-06-14T10:23:49.200Z] [runtime-status] [3552] Ephemeral server handling GET request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3552] Ephemeral server handling GET request"}}
+[debug] [2022-06-14T10:23:49.203Z] [runtime-status] [3552] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3552] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-06-14T10:23:49.205Z] [worker-us-central1-api-bfa4325c-4d85-4749-abfe-3c76bab51e5b]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-bfa4325c-4d85-4749-abfe-3c76bab51e5b]: IDLE"}}
+[debug] [2022-06-14T10:23:49.205Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-06-14T10:24:15.774Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-06-14T10:24:15.775Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-06-14T10:24:15.775Z] Accepted request GET /e-commerce-website-proj-sem6/us-central1/api/qazi --> us-central1-api
+[debug] [2022-06-14T10:24:15.775Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-06-14T10:24:15.775Z] [worker-us-central1-api-bfa4325c-4d85-4749-abfe-3c76bab51e5b]: Assigning socketPath: \\?\pipe\C:\Users\msi\Desktop\i-kart\functions\3552 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-bfa4325c-4d85-4749-abfe-3c76bab51e5b]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\msi\\Desktop\\i-kart\\functions\\3552"}}
+[debug] [2022-06-14T10:24:15.775Z] [worker-us-central1-api-bfa4325c-4d85-4749-abfe-3c76bab51e5b]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-bfa4325c-4d85-4749-abfe-3c76bab51e5b]: BUSY"}}
+[debug] [2022-06-14T10:24:15.777Z] [runtime-status] [3552] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3552] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-06-14T10:24:15.778Z] [runtime-status] [3552] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3552] Running api in signature http"}}
+[debug] [2022-06-14T10:24:15.779Z] [runtime-status] [3552] Attempting to listen to socketPath: \\?\pipe\C:\Users\msi\Desktop\i-kart\functions\3552 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3552] Attempting to listen to socketPath: \\\\?\\pipe\\C:\\Users\\msi\\Desktop\\i-kart\\functions\\3552"}}
+[debug] [2022-06-14T10:24:15.781Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-06-14T10:24:15.781Z] [functions] Got req.url=/e-commerce-website-proj-sem6/us-central1/api/qazi, mapping to path=/qazi {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-commerce-website-proj-sem6/us-central1/api/qazi, mapping to path=/qazi"}}
+[debug] [2022-06-14T10:24:15.784Z] [runtime-status] [3552] Ephemeral server handling GET request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3552] Ephemeral server handling GET request"}}
+[debug] [2022-06-14T10:24:15.788Z] [runtime-status] [3552] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3552] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-06-14T10:24:15.789Z] [worker-us-central1-api-bfa4325c-4d85-4749-abfe-3c76bab51e5b]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-bfa4325c-4d85-4749-abfe-3c76bab51e5b]: IDLE"}}
+[debug] [2022-06-14T10:24:15.789Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-06-14T10:24:24.245Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-06-14T10:24:24.245Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-06-14T10:24:24.245Z] Accepted request GET /e-commerce-website-proj-sem6/us-central1/api/qazi --> us-central1-api
+[debug] [2022-06-14T10:24:24.246Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-06-14T10:24:24.246Z] [worker-us-central1-api-bfa4325c-4d85-4749-abfe-3c76bab51e5b]: Assigning socketPath: \\?\pipe\C:\Users\msi\Desktop\i-kart\functions\3552 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-bfa4325c-4d85-4749-abfe-3c76bab51e5b]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\msi\\Desktop\\i-kart\\functions\\3552"}}
+[debug] [2022-06-14T10:24:24.246Z] [worker-us-central1-api-bfa4325c-4d85-4749-abfe-3c76bab51e5b]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-bfa4325c-4d85-4749-abfe-3c76bab51e5b]: BUSY"}}
+[debug] [2022-06-14T10:24:24.246Z] [runtime-status] [3552] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3552] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-06-14T10:24:24.247Z] [runtime-status] [3552] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3552] Running api in signature http"}}
+[debug] [2022-06-14T10:24:24.248Z] [runtime-status] [3552] Attempting to listen to socketPath: \\?\pipe\C:\Users\msi\Desktop\i-kart\functions\3552 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3552] Attempting to listen to socketPath: \\\\?\\pipe\\C:\\Users\\msi\\Desktop\\i-kart\\functions\\3552"}}
+[debug] [2022-06-14T10:24:24.249Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-06-14T10:24:24.249Z] [functions] Got req.url=/e-commerce-website-proj-sem6/us-central1/api/qazi, mapping to path=/qazi {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-commerce-website-proj-sem6/us-central1/api/qazi, mapping to path=/qazi"}}
+[debug] [2022-06-14T10:24:24.251Z] [runtime-status] [3552] Ephemeral server handling GET request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3552] Ephemeral server handling GET request"}}
+[debug] [2022-06-14T10:24:24.253Z] [runtime-status] [3552] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [3552] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-06-14T10:24:24.254Z] [worker-us-central1-api-bfa4325c-4d85-4749-abfe-3c76bab51e5b]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-bfa4325c-4d85-4749-abfe-3c76bab51e5b]: IDLE"}}
+[debug] [2022-06-14T10:24:24.254Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-06-14T10:25:03.185Z] File C:\Users\msi\Desktop\i-kart\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\msi\\Desktop\\i-kart\\functions\\index.js changed, reloading triggers"}}
+[debug] [2022-06-14T10:25:04.201Z] [worker-pool] Shutting down IDLE worker (us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Shutting down IDLE worker (us-central1-api)"}}
+[debug] [2022-06-14T10:25:04.202Z] [worker-us-central1-api-bfa4325c-4d85-4749-abfe-3c76bab51e5b]: FINISHING {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-bfa4325c-4d85-4749-abfe-3c76bab51e5b]: FINISHING"}}
+[debug] [2022-06-14T10:25:04.205Z] Validating nodejs source
+[debug] [2022-06-14T10:25:06.794Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^9.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-06-14T10:25:06.794Z] Building nodejs source
+[debug] [2022-06-14T10:25:06.794Z] Analyzing nodejs backend spec
+[debug] [2022-06-14T10:25:06.795Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-06-14T10:25:06.808Z] [worker-us-central1-api-bfa4325c-4d85-4749-abfe-3c76bab51e5b]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-bfa4325c-4d85-4749-abfe-3c76bab51e5b]: exited"}}
+[debug] [2022-06-14T10:25:06.808Z] [worker-us-central1-api-bfa4325c-4d85-4749-abfe-3c76bab51e5b]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-bfa4325c-4d85-4749-abfe-3c76bab51e5b]: FINISHED"}}
+[debug] [2022-06-14T10:25:07.093Z] Serving at port 9005
+
+[debug] [2022-06-14T10:25:07.258Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2022-06-14T10:25:07.265Z] shutdown requested via /__/quitquitquit
+
+[debug] [2022-06-14T10:25:17.106Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-06-14T10:25:17.106Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-06-14T10:25:17.106Z] Accepted request GET /e-commerce-website-proj-sem6/us-central1/api/qazi --> us-central1-api
+[debug] [2022-06-14T10:25:17.106Z] [worker-pool] Cleaned up workers for us-central1-api: 1 --> 0 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Cleaned up workers for us-central1-api: 1 --> 0"}}
+[debug] [2022-06-14T10:25:17.117Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2022-06-14T10:25:17.117Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2022-06-14T10:25:17.117Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-06-14T10:25:17.117Z] [worker-us-central1-api-79eb5a45-9dd3-4700-92b7-242be72bebea]: Assigning socketPath: \\?\pipe\C:\Users\msi\Desktop\i-kart\functions\4108 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-79eb5a45-9dd3-4700-92b7-242be72bebea]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\msi\\Desktop\\i-kart\\functions\\4108"}}
+[debug] [2022-06-14T10:25:17.117Z] [worker-us-central1-api-79eb5a45-9dd3-4700-92b7-242be72bebea]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-79eb5a45-9dd3-4700-92b7-242be72bebea]: BUSY"}}
+[debug] [2022-06-14T10:25:18.462Z] [runtime-status] [4108] Functions runtime initialized. {"cwd":"C:\\Users\\msi\\Desktop\\i-kart\\functions","node_version":"16.14.2"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [4108] Functions runtime initialized. {\"cwd\":\"C:\\\\Users\\\\msi\\\\Desktop\\\\i-kart\\\\functions\",\"node_version\":\"16.14.2\"}"}}
+[debug] [2022-06-14T10:25:18.464Z] [runtime-status] [4108] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [4108] Disabled runtime features: undefined"}}
+[debug] [2022-06-14T10:25:18.466Z] [runtime-status] [4108] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"C:\\Users\\msi\\Desktop\\i-kart\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [4108] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"C:\\\\Users\\\\msi\\\\Desktop\\\\i-kart\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-06-14T10:25:18.469Z] [runtime-status] [4108] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"C:\\Users\\msi\\Desktop\\i-kart\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [4108] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"C:\\\\Users\\\\msi\\\\Desktop\\\\i-kart\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-06-14T10:25:18.469Z] [runtime-status] [4108] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [4108] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-06-14T10:25:18.470Z] [runtime-status] [4108] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"C:\\Users\\msi\\Desktop\\i-kart\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [4108] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"C:\\\\Users\\\\msi\\\\Desktop\\\\i-kart\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-06-14T10:25:18.516Z] [runtime-status] [4108] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [4108] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-06-14T10:25:18.516Z] [runtime-status] [4108] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.21.2","resolution":"C:\\Users\\msi\\Desktop\\i-kart\\functions\\node_modules\\firebase-functions\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [4108] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"C:\\\\Users\\\\msi\\\\Desktop\\\\i-kart\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-06-14T10:25:18.517Z] [runtime-status] [4108] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"C:\\Users\\msi\\Desktop\\i-kart\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [4108] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"C:\\\\Users\\\\msi\\\\Desktop\\\\i-kart\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-06-14T10:25:18.519Z] [runtime-status] [4108] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"C:\\Users\\msi\\Desktop\\i-kart\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [4108] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"C:\\\\Users\\\\msi\\\\Desktop\\\\i-kart\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-06-14T10:25:18.519Z] [runtime-status] [4108] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"C:\\Users\\msi\\Desktop\\i-kart\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [4108] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"C:\\\\Users\\\\msi\\\\Desktop\\\\i-kart\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-06-14T10:25:18.519Z] [runtime-status] [4108] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.3.0","resolution":"C:\\Users\\msi\\Desktop\\i-kart\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [4108] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"C:\\\\Users\\\\msi\\\\Desktop\\\\i-kart\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-06-14T10:25:18.684Z] [runtime-status] [4108] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [4108] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-06-14T10:25:18.685Z] [runtime-status] [4108] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [4108] Running api in signature http"}}
+[debug] [2022-06-14T10:25:18.689Z] [runtime-status] [4108] Attempting to listen to socketPath: \\?\pipe\C:\Users\msi\Desktop\i-kart\functions\4108 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [4108] Attempting to listen to socketPath: \\\\?\\pipe\\C:\\Users\\msi\\Desktop\\i-kart\\functions\\4108"}}
+[debug] [2022-06-14T10:25:18.694Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-06-14T10:25:18.695Z] [functions] Got req.url=/e-commerce-website-proj-sem6/us-central1/api/qazi, mapping to path=/qazi {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-commerce-website-proj-sem6/us-central1/api/qazi, mapping to path=/qazi"}}
+[debug] [2022-06-14T10:25:18.702Z] [runtime-status] [4108] Ephemeral server handling GET request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [4108] Ephemeral server handling GET request"}}
+[debug] [2022-06-14T10:25:18.717Z] [runtime-status] [4108] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [4108] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-06-14T10:25:18.734Z] [worker-us-central1-api-79eb5a45-9dd3-4700-92b7-242be72bebea]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-79eb5a45-9dd3-4700-92b7-242be72bebea]: IDLE"}}
+[debug] [2022-06-14T10:25:18.735Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-06-14T10:36:19.393Z] File C:\Users\msi\Desktop\i-kart\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\msi\\Desktop\\i-kart\\functions\\index.js changed, reloading triggers"}}
+[debug] [2022-06-14T10:36:20.407Z] [worker-pool] Shutting down IDLE worker (us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Shutting down IDLE worker (us-central1-api)"}}
+[debug] [2022-06-14T10:36:20.408Z] [worker-us-central1-api-79eb5a45-9dd3-4700-92b7-242be72bebea]: FINISHING {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-79eb5a45-9dd3-4700-92b7-242be72bebea]: FINISHING"}}
+[debug] [2022-06-14T10:36:20.412Z] Validating nodejs source
+[debug] [2022-06-14T10:36:23.018Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^9.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-06-14T10:36:23.019Z] Building nodejs source
+[debug] [2022-06-14T10:36:23.019Z] Analyzing nodejs backend spec
+[debug] [2022-06-14T10:36:23.019Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-06-14T10:36:23.030Z] [worker-us-central1-api-79eb5a45-9dd3-4700-92b7-242be72bebea]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-79eb5a45-9dd3-4700-92b7-242be72bebea]: exited"}}
+[debug] [2022-06-14T10:36:23.030Z] [worker-us-central1-api-79eb5a45-9dd3-4700-92b7-242be72bebea]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-79eb5a45-9dd3-4700-92b7-242be72bebea]: FINISHED"}}
+[debug] [2022-06-14T10:36:23.266Z] Serving at port 9005
+
+[debug] [2022-06-14T10:36:23.375Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2022-06-14T10:36:23.379Z] shutdown requested via /__/quitquitquit
+
+[debug] [2022-06-14T10:46:57.993Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-06-14T10:46:57.998Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-06-14T10:46:57.998Z] Accepted request POST /e-commerce-website-proj-sem6/us-central1/api/payments/create?total=54994.00000000001 --> us-central1-api
+[debug] [2022-06-14T10:46:57.999Z] [worker-pool] Cleaned up workers for us-central1-api: 1 --> 0 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Cleaned up workers for us-central1-api: 1 --> 0"}}
+[debug] [2022-06-14T10:46:58.012Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2022-06-14T10:46:58.012Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2022-06-14T10:46:58.012Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-06-14T10:46:58.013Z] [worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: Assigning socketPath: \\?\pipe\C:\Users\msi\Desktop\i-kart\functions\1420 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\msi\\Desktop\\i-kart\\functions\\1420"}}
+[debug] [2022-06-14T10:46:58.013Z] [worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: BUSY"}}
+[debug] [2022-06-14T10:46:59.559Z] [runtime-status] [1420] Functions runtime initialized. {"cwd":"C:\\Users\\msi\\Desktop\\i-kart\\functions","node_version":"16.14.2"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Functions runtime initialized. {\"cwd\":\"C:\\\\Users\\\\msi\\\\Desktop\\\\i-kart\\\\functions\",\"node_version\":\"16.14.2\"}"}}
+[debug] [2022-06-14T10:46:59.561Z] [runtime-status] [1420] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Disabled runtime features: undefined"}}
+[debug] [2022-06-14T10:46:59.565Z] [runtime-status] [1420] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"C:\\Users\\msi\\Desktop\\i-kart\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"C:\\\\Users\\\\msi\\\\Desktop\\\\i-kart\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-06-14T10:46:59.568Z] [runtime-status] [1420] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"C:\\Users\\msi\\Desktop\\i-kart\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"C:\\\\Users\\\\msi\\\\Desktop\\\\i-kart\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-06-14T10:46:59.569Z] [runtime-status] [1420] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-06-14T10:46:59.570Z] [runtime-status] [1420] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"C:\\Users\\msi\\Desktop\\i-kart\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"C:\\\\Users\\\\msi\\\\Desktop\\\\i-kart\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-06-14T10:46:59.620Z] [runtime-status] [1420] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-06-14T10:46:59.621Z] [runtime-status] [1420] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.21.2","resolution":"C:\\Users\\msi\\Desktop\\i-kart\\functions\\node_modules\\firebase-functions\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"C:\\\\Users\\\\msi\\\\Desktop\\\\i-kart\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-06-14T10:46:59.622Z] [runtime-status] [1420] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"C:\\Users\\msi\\Desktop\\i-kart\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"C:\\\\Users\\\\msi\\\\Desktop\\\\i-kart\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-06-14T10:46:59.623Z] [runtime-status] [1420] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"C:\\Users\\msi\\Desktop\\i-kart\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"C:\\\\Users\\\\msi\\\\Desktop\\\\i-kart\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-06-14T10:46:59.624Z] [runtime-status] [1420] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"C:\\Users\\msi\\Desktop\\i-kart\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"C:\\\\Users\\\\msi\\\\Desktop\\\\i-kart\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-06-14T10:46:59.624Z] [runtime-status] [1420] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.3.0","resolution":"C:\\Users\\msi\\Desktop\\i-kart\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"C:\\\\Users\\\\msi\\\\Desktop\\\\i-kart\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-06-14T10:46:59.769Z] [runtime-status] [1420] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-06-14T10:46:59.772Z] [runtime-status] [1420] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Running api in signature http"}}
+[debug] [2022-06-14T10:46:59.774Z] [runtime-status] [1420] Attempting to listen to socketPath: \\?\pipe\C:\Users\msi\Desktop\i-kart\functions\1420 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Attempting to listen to socketPath: \\\\?\\pipe\\C:\\Users\\msi\\Desktop\\i-kart\\functions\\1420"}}
+[debug] [2022-06-14T10:46:59.780Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-06-14T10:46:59.782Z] [functions] Got req.url=/e-commerce-website-proj-sem6/us-central1/api/payments/create?total=54994.00000000001, mapping to path=/payments/create?total=54994.00000000001 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-commerce-website-proj-sem6/us-central1/api/payments/create?total=54994.00000000001, mapping to path=/payments/create?total=54994.00000000001"}}
+[debug] [2022-06-14T10:46:59.790Z] [runtime-status] [1420] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Ephemeral server handling POST request"}}
+[debug] [2022-06-14T10:46:59.798Z] [runtime-status] [1420] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-06-14T10:46:59.807Z] [worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: IDLE"}}
+[debug] [2022-06-14T10:46:59.807Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-06-14T10:56:19.977Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-06-14T10:56:19.983Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-06-14T10:56:19.984Z] Accepted request POST /e-commerce-website-proj-sem6/us-central1/api/payments/create?total=54994.00000000001 --> us-central1-api
+[debug] [2022-06-14T10:56:19.986Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-06-14T10:56:19.988Z] [worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: Assigning socketPath: \\?\pipe\C:\Users\msi\Desktop\i-kart\functions\1420 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\msi\\Desktop\\i-kart\\functions\\1420"}}
+[debug] [2022-06-14T10:56:19.988Z] [worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: BUSY"}}
+[debug] [2022-06-14T10:56:20.016Z] [runtime-status] [1420] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-06-14T10:56:20.021Z] [runtime-status] [1420] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Running api in signature http"}}
+[debug] [2022-06-14T10:56:20.030Z] [runtime-status] [1420] Attempting to listen to socketPath: \\?\pipe\C:\Users\msi\Desktop\i-kart\functions\1420 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Attempting to listen to socketPath: \\\\?\\pipe\\C:\\Users\\msi\\Desktop\\i-kart\\functions\\1420"}}
+[debug] [2022-06-14T10:56:20.040Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-06-14T10:56:20.041Z] [functions] Got req.url=/e-commerce-website-proj-sem6/us-central1/api/payments/create?total=54994.00000000001, mapping to path=/payments/create?total=54994.00000000001 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-commerce-website-proj-sem6/us-central1/api/payments/create?total=54994.00000000001, mapping to path=/payments/create?total=54994.00000000001"}}
+[debug] [2022-06-14T10:56:20.049Z] [runtime-status] [1420] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Ephemeral server handling POST request"}}
+[debug] [2022-06-14T10:56:20.057Z] [runtime-status] [1420] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-06-14T10:56:20.064Z] [worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: IDLE"}}
+[debug] [2022-06-14T10:56:20.065Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-06-14T10:56:38.680Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-06-14T10:56:38.681Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-06-14T10:56:38.681Z] Accepted request POST /e-commerce-website-proj-sem6/us-central1/api/payments/create?total=0 --> us-central1-api
+[debug] [2022-06-14T10:56:38.681Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-06-14T10:56:38.681Z] [worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: Assigning socketPath: \\?\pipe\C:\Users\msi\Desktop\i-kart\functions\1420 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\msi\\Desktop\\i-kart\\functions\\1420"}}
+[debug] [2022-06-14T10:56:38.682Z] [worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: BUSY"}}
+[debug] [2022-06-14T10:56:38.683Z] [runtime-status] [1420] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-06-14T10:56:38.684Z] [runtime-status] [1420] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Running api in signature http"}}
+[debug] [2022-06-14T10:56:38.684Z] [runtime-status] [1420] Attempting to listen to socketPath: \\?\pipe\C:\Users\msi\Desktop\i-kart\functions\1420 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Attempting to listen to socketPath: \\\\?\\pipe\\C:\\Users\\msi\\Desktop\\i-kart\\functions\\1420"}}
+[debug] [2022-06-14T10:56:38.688Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-06-14T10:56:38.691Z] [functions] Got req.url=/e-commerce-website-proj-sem6/us-central1/api/payments/create?total=0, mapping to path=/payments/create?total=0 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-commerce-website-proj-sem6/us-central1/api/payments/create?total=0, mapping to path=/payments/create?total=0"}}
+[debug] [2022-06-14T10:56:38.696Z] [runtime-status] [1420] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Ephemeral server handling POST request"}}
+[debug] [2022-06-14T10:56:38.699Z] [runtime-status] [1420] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-06-14T10:56:38.701Z] [worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: IDLE"}}
+[debug] [2022-06-14T10:56:38.701Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-06-14T10:56:49.686Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-06-14T10:56:49.687Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-06-14T10:56:49.688Z] Accepted request GET /e-commerce-website-proj-sem6/us-central1/api/qazi --> us-central1-api
+[debug] [2022-06-14T10:56:49.688Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-06-14T10:56:49.689Z] [worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: Assigning socketPath: \\?\pipe\C:\Users\msi\Desktop\i-kart\functions\1420 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\msi\\Desktop\\i-kart\\functions\\1420"}}
+[debug] [2022-06-14T10:56:49.689Z] [worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: BUSY"}}
+[debug] [2022-06-14T10:56:49.692Z] [runtime-status] [1420] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-06-14T10:56:49.696Z] [runtime-status] [1420] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Running api in signature http"}}
+[debug] [2022-06-14T10:56:49.696Z] [runtime-status] [1420] Attempting to listen to socketPath: \\?\pipe\C:\Users\msi\Desktop\i-kart\functions\1420 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Attempting to listen to socketPath: \\\\?\\pipe\\C:\\Users\\msi\\Desktop\\i-kart\\functions\\1420"}}
+[debug] [2022-06-14T10:56:49.702Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-06-14T10:56:49.703Z] [functions] Got req.url=/e-commerce-website-proj-sem6/us-central1/api/qazi, mapping to path=/qazi {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-commerce-website-proj-sem6/us-central1/api/qazi, mapping to path=/qazi"}}
+[debug] [2022-06-14T10:56:49.706Z] [runtime-status] [1420] Ephemeral server handling GET request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Ephemeral server handling GET request"}}
+[debug] [2022-06-14T10:56:49.708Z] [runtime-status] [1420] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-06-14T10:56:49.710Z] [worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: IDLE"}}
+[debug] [2022-06-14T10:56:49.710Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-06-14T10:57:57.319Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-06-14T10:57:57.319Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-06-14T10:57:57.319Z] Accepted request POST /e-commerce-website-proj-sem6/us-central1/api/payments/create?total=89797 --> us-central1-api
+[debug] [2022-06-14T10:57:57.319Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-06-14T10:57:57.320Z] [worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: Assigning socketPath: \\?\pipe\C:\Users\msi\Desktop\i-kart\functions\1420 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\msi\\Desktop\\i-kart\\functions\\1420"}}
+[debug] [2022-06-14T10:57:57.320Z] [worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: BUSY"}}
+[debug] [2022-06-14T10:57:57.320Z] [runtime-status] [1420] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-06-14T10:57:57.321Z] [runtime-status] [1420] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Running api in signature http"}}
+[debug] [2022-06-14T10:57:57.321Z] [runtime-status] [1420] Attempting to listen to socketPath: \\?\pipe\C:\Users\msi\Desktop\i-kart\functions\1420 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Attempting to listen to socketPath: \\\\?\\pipe\\C:\\Users\\msi\\Desktop\\i-kart\\functions\\1420"}}
+[debug] [2022-06-14T10:57:57.324Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-06-14T10:57:57.324Z] [functions] Got req.url=/e-commerce-website-proj-sem6/us-central1/api/payments/create?total=89797, mapping to path=/payments/create?total=89797 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-commerce-website-proj-sem6/us-central1/api/payments/create?total=89797, mapping to path=/payments/create?total=89797"}}
+[debug] [2022-06-14T10:57:57.326Z] [runtime-status] [1420] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Ephemeral server handling POST request"}}
+[debug] [2022-06-14T10:57:57.327Z] [runtime-status] [1420] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-06-14T10:57:57.328Z] [worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: IDLE"}}
+[debug] [2022-06-14T10:57:57.328Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-06-14T10:59:59.573Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-06-14T10:59:59.573Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-06-14T10:59:59.574Z] Accepted request POST /e-commerce-website-proj-sem6/us-central1/api/payments/create?total=0 --> us-central1-api
+[debug] [2022-06-14T10:59:59.574Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-06-14T10:59:59.574Z] [worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: Assigning socketPath: \\?\pipe\C:\Users\msi\Desktop\i-kart\functions\1420 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\msi\\Desktop\\i-kart\\functions\\1420"}}
+[debug] [2022-06-14T10:59:59.574Z] [worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: BUSY"}}
+[debug] [2022-06-14T10:59:59.575Z] [runtime-status] [1420] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-06-14T10:59:59.576Z] [runtime-status] [1420] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Running api in signature http"}}
+[debug] [2022-06-14T10:59:59.576Z] [runtime-status] [1420] Attempting to listen to socketPath: \\?\pipe\C:\Users\msi\Desktop\i-kart\functions\1420 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Attempting to listen to socketPath: \\\\?\\pipe\\C:\\Users\\msi\\Desktop\\i-kart\\functions\\1420"}}
+[debug] [2022-06-14T10:59:59.578Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-06-14T10:59:59.578Z] [functions] Got req.url=/e-commerce-website-proj-sem6/us-central1/api/payments/create?total=0, mapping to path=/payments/create?total=0 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-commerce-website-proj-sem6/us-central1/api/payments/create?total=0, mapping to path=/payments/create?total=0"}}
+[debug] [2022-06-14T10:59:59.580Z] [runtime-status] [1420] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Ephemeral server handling POST request"}}
+[debug] [2022-06-14T10:59:59.582Z] [runtime-status] [1420] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-06-14T10:59:59.583Z] [worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: IDLE"}}
+[debug] [2022-06-14T10:59:59.583Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-06-14T11:00:01.894Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-06-14T11:00:01.894Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-06-14T11:00:01.895Z] Accepted request POST /e-commerce-website-proj-sem6/us-central1/api/payments/create?total=0 --> us-central1-api
+[debug] [2022-06-14T11:00:01.895Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-06-14T11:00:01.895Z] [worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: Assigning socketPath: \\?\pipe\C:\Users\msi\Desktop\i-kart\functions\1420 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\msi\\Desktop\\i-kart\\functions\\1420"}}
+[debug] [2022-06-14T11:00:01.895Z] [worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: BUSY"}}
+[debug] [2022-06-14T11:00:01.897Z] [runtime-status] [1420] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-06-14T11:00:01.899Z] [runtime-status] [1420] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Running api in signature http"}}
+[debug] [2022-06-14T11:00:01.899Z] [runtime-status] [1420] Attempting to listen to socketPath: \\?\pipe\C:\Users\msi\Desktop\i-kart\functions\1420 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Attempting to listen to socketPath: \\\\?\\pipe\\C:\\Users\\msi\\Desktop\\i-kart\\functions\\1420"}}
+[debug] [2022-06-14T11:00:01.906Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-06-14T11:00:01.906Z] [functions] Got req.url=/e-commerce-website-proj-sem6/us-central1/api/payments/create?total=0, mapping to path=/payments/create?total=0 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-commerce-website-proj-sem6/us-central1/api/payments/create?total=0, mapping to path=/payments/create?total=0"}}
+[debug] [2022-06-14T11:00:01.908Z] [runtime-status] [1420] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Ephemeral server handling POST request"}}
+[debug] [2022-06-14T11:00:01.910Z] [runtime-status] [1420] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-06-14T11:00:01.912Z] [worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: IDLE"}}
+[debug] [2022-06-14T11:00:01.912Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-06-14T11:00:03.648Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-06-14T11:00:03.648Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-06-14T11:00:03.648Z] Accepted request POST /e-commerce-website-proj-sem6/us-central1/api/payments/create?total=0 --> us-central1-api
+[debug] [2022-06-14T11:00:03.648Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-06-14T11:00:03.648Z] [worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: Assigning socketPath: \\?\pipe\C:\Users\msi\Desktop\i-kart\functions\1420 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\msi\\Desktop\\i-kart\\functions\\1420"}}
+[debug] [2022-06-14T11:00:03.649Z] [worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: BUSY"}}
+[debug] [2022-06-14T11:00:03.650Z] [runtime-status] [1420] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-06-14T11:00:03.654Z] [runtime-status] [1420] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Running api in signature http"}}
+[debug] [2022-06-14T11:00:03.654Z] [runtime-status] [1420] Attempting to listen to socketPath: \\?\pipe\C:\Users\msi\Desktop\i-kart\functions\1420 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Attempting to listen to socketPath: \\\\?\\pipe\\C:\\Users\\msi\\Desktop\\i-kart\\functions\\1420"}}
+[debug] [2022-06-14T11:00:03.656Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-06-14T11:00:03.657Z] [functions] Got req.url=/e-commerce-website-proj-sem6/us-central1/api/payments/create?total=0, mapping to path=/payments/create?total=0 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-commerce-website-proj-sem6/us-central1/api/payments/create?total=0, mapping to path=/payments/create?total=0"}}
+[debug] [2022-06-14T11:00:03.658Z] [runtime-status] [1420] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Ephemeral server handling POST request"}}
+[debug] [2022-06-14T11:00:03.668Z] [runtime-status] [1420] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-06-14T11:00:03.672Z] [worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: IDLE"}}
+[debug] [2022-06-14T11:00:03.673Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-06-14T11:00:19.483Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-06-14T11:00:19.483Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-06-14T11:00:19.484Z] Accepted request POST /e-commerce-website-proj-sem6/us-central1/api/payments/create?total=249494.99999999997 --> us-central1-api
+[debug] [2022-06-14T11:00:19.484Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-06-14T11:00:19.484Z] [worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: Assigning socketPath: \\?\pipe\C:\Users\msi\Desktop\i-kart\functions\1420 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\msi\\Desktop\\i-kart\\functions\\1420"}}
+[debug] [2022-06-14T11:00:19.484Z] [worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: BUSY"}}
+[debug] [2022-06-14T11:00:19.485Z] [runtime-status] [1420] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-06-14T11:00:19.487Z] [runtime-status] [1420] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Running api in signature http"}}
+[debug] [2022-06-14T11:00:19.487Z] [runtime-status] [1420] Attempting to listen to socketPath: \\?\pipe\C:\Users\msi\Desktop\i-kart\functions\1420 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Attempting to listen to socketPath: \\\\?\\pipe\\C:\\Users\\msi\\Desktop\\i-kart\\functions\\1420"}}
+[debug] [2022-06-14T11:00:19.489Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-06-14T11:00:19.490Z] [functions] Got req.url=/e-commerce-website-proj-sem6/us-central1/api/payments/create?total=249494.99999999997, mapping to path=/payments/create?total=249494.99999999997 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-commerce-website-proj-sem6/us-central1/api/payments/create?total=249494.99999999997, mapping to path=/payments/create?total=249494.99999999997"}}
+[debug] [2022-06-14T11:00:19.491Z] [runtime-status] [1420] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Ephemeral server handling POST request"}}
+[debug] [2022-06-14T11:00:19.493Z] [runtime-status] [1420] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-06-14T11:00:19.495Z] [worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: IDLE"}}
+[debug] [2022-06-14T11:00:19.495Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-06-14T11:17:29.990Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-06-14T11:17:29.995Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-06-14T11:17:29.995Z] Accepted request POST /e-commerce-website-proj-sem6/us-central1/api/payments/create?total=249494.99999999997 --> us-central1-api
+[debug] [2022-06-14T11:17:29.997Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-06-14T11:17:29.998Z] [worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: Assigning socketPath: \\?\pipe\C:\Users\msi\Desktop\i-kart\functions\1420 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\msi\\Desktop\\i-kart\\functions\\1420"}}
+[debug] [2022-06-14T11:17:29.998Z] [worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: BUSY"}}
+[debug] [2022-06-14T11:17:30.013Z] [runtime-status] [1420] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-06-14T11:17:30.018Z] [runtime-status] [1420] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Running api in signature http"}}
+[debug] [2022-06-14T11:17:30.021Z] [runtime-status] [1420] Attempting to listen to socketPath: \\?\pipe\C:\Users\msi\Desktop\i-kart\functions\1420 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Attempting to listen to socketPath: \\\\?\\pipe\\C:\\Users\\msi\\Desktop\\i-kart\\functions\\1420"}}
+[debug] [2022-06-14T11:17:30.031Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-06-14T11:17:30.032Z] [functions] Got req.url=/e-commerce-website-proj-sem6/us-central1/api/payments/create?total=249494.99999999997, mapping to path=/payments/create?total=249494.99999999997 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-commerce-website-proj-sem6/us-central1/api/payments/create?total=249494.99999999997, mapping to path=/payments/create?total=249494.99999999997"}}
+[debug] [2022-06-14T11:17:30.037Z] [runtime-status] [1420] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Ephemeral server handling POST request"}}
+[debug] [2022-06-14T11:17:30.043Z] [runtime-status] [1420] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-06-14T11:17:30.046Z] [worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: IDLE"}}
+[debug] [2022-06-14T11:17:30.046Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-06-14T11:17:43.909Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-06-14T11:17:43.910Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-06-14T11:17:43.910Z] Accepted request POST /e-commerce-website-proj-sem6/us-central1/api/payments/create?total=0 --> us-central1-api
+[debug] [2022-06-14T11:17:43.910Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-06-14T11:17:43.910Z] [worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: Assigning socketPath: \\?\pipe\C:\Users\msi\Desktop\i-kart\functions\1420 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\msi\\Desktop\\i-kart\\functions\\1420"}}
+[debug] [2022-06-14T11:17:43.910Z] [worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: BUSY"}}
+[debug] [2022-06-14T11:17:43.913Z] [runtime-status] [1420] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-06-14T11:17:43.917Z] [runtime-status] [1420] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Running api in signature http"}}
+[debug] [2022-06-14T11:17:43.917Z] [runtime-status] [1420] Attempting to listen to socketPath: \\?\pipe\C:\Users\msi\Desktop\i-kart\functions\1420 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Attempting to listen to socketPath: \\\\?\\pipe\\C:\\Users\\msi\\Desktop\\i-kart\\functions\\1420"}}
+[debug] [2022-06-14T11:17:43.922Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-06-14T11:17:43.922Z] [functions] Got req.url=/e-commerce-website-proj-sem6/us-central1/api/payments/create?total=0, mapping to path=/payments/create?total=0 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-commerce-website-proj-sem6/us-central1/api/payments/create?total=0, mapping to path=/payments/create?total=0"}}
+[debug] [2022-06-14T11:17:43.924Z] [runtime-status] [1420] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Ephemeral server handling POST request"}}
+[debug] [2022-06-14T11:17:43.927Z] [runtime-status] [1420] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-06-14T11:17:43.932Z] [worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: IDLE"}}
+[debug] [2022-06-14T11:17:43.933Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-06-14T11:20:10.396Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-06-14T11:20:10.396Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-06-14T11:20:10.396Z] Accepted request POST /e-commerce-website-proj-sem6/us-central1/api/payments/create?total=0 --> us-central1-api
+[debug] [2022-06-14T11:20:10.397Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-06-14T11:20:10.397Z] [worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: Assigning socketPath: \\?\pipe\C:\Users\msi\Desktop\i-kart\functions\1420 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\msi\\Desktop\\i-kart\\functions\\1420"}}
+[debug] [2022-06-14T11:20:10.397Z] [worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: BUSY"}}
+[debug] [2022-06-14T11:20:10.400Z] [runtime-status] [1420] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-06-14T11:20:10.402Z] [runtime-status] [1420] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Running api in signature http"}}
+[debug] [2022-06-14T11:20:10.403Z] [runtime-status] [1420] Attempting to listen to socketPath: \\?\pipe\C:\Users\msi\Desktop\i-kart\functions\1420 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Attempting to listen to socketPath: \\\\?\\pipe\\C:\\Users\\msi\\Desktop\\i-kart\\functions\\1420"}}
+[debug] [2022-06-14T11:20:10.406Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-06-14T11:20:10.406Z] [functions] Got req.url=/e-commerce-website-proj-sem6/us-central1/api/payments/create?total=0, mapping to path=/payments/create?total=0 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-commerce-website-proj-sem6/us-central1/api/payments/create?total=0, mapping to path=/payments/create?total=0"}}
+[debug] [2022-06-14T11:20:10.412Z] [runtime-status] [1420] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Ephemeral server handling POST request"}}
+[debug] [2022-06-14T11:20:10.415Z] [runtime-status] [1420] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-06-14T11:20:10.418Z] [worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: IDLE"}}
+[debug] [2022-06-14T11:20:10.419Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-06-14T11:20:27.872Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-06-14T11:20:27.873Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-06-14T11:20:27.873Z] Accepted request POST /e-commerce-website-proj-sem6/us-central1/api/payments/create?total=94894 --> us-central1-api
+[debug] [2022-06-14T11:20:27.873Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-06-14T11:20:27.873Z] [worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: Assigning socketPath: \\?\pipe\C:\Users\msi\Desktop\i-kart\functions\1420 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\msi\\Desktop\\i-kart\\functions\\1420"}}
+[debug] [2022-06-14T11:20:27.873Z] [worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: BUSY"}}
+[debug] [2022-06-14T11:20:27.875Z] [runtime-status] [1420] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-06-14T11:20:27.878Z] [runtime-status] [1420] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Running api in signature http"}}
+[debug] [2022-06-14T11:20:27.878Z] [runtime-status] [1420] Attempting to listen to socketPath: \\?\pipe\C:\Users\msi\Desktop\i-kart\functions\1420 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Attempting to listen to socketPath: \\\\?\\pipe\\C:\\Users\\msi\\Desktop\\i-kart\\functions\\1420"}}
+[debug] [2022-06-14T11:20:27.883Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-06-14T11:20:27.884Z] [functions] Got req.url=/e-commerce-website-proj-sem6/us-central1/api/payments/create?total=94894, mapping to path=/payments/create?total=94894 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-commerce-website-proj-sem6/us-central1/api/payments/create?total=94894, mapping to path=/payments/create?total=94894"}}
+[debug] [2022-06-14T11:20:27.886Z] [runtime-status] [1420] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Ephemeral server handling POST request"}}
+[debug] [2022-06-14T11:20:27.888Z] [runtime-status] [1420] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1420] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-06-14T11:20:27.898Z] [worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: IDLE"}}
+[debug] [2022-06-14T11:20:27.898Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-06-14T11:33:35.895Z] [worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: exited"}}
+[debug] [2022-06-14T11:33:35.896Z] [worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-0c1147f0-b99c-41b9-8b7e-813f2f6d863b]: FINISHED"}}
+[debug] [2022-06-14T11:33:35.899Z] Received signal SIGHUP 1
+[debug] [2022-06-16T19:30:59.646Z] ----------------------------------------------------------------------
+[debug] [2022-06-16T19:30:59.648Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\msi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2022-06-16T19:30:59.648Z] CLI Version:   11.0.1
+[debug] [2022-06-16T19:30:59.648Z] Platform:      win32
+[debug] [2022-06-16T19:30:59.648Z] Node Version:  v16.14.2
+[debug] [2022-06-16T19:30:59.653Z] Time:          Fri Jun 17 2022 01:00:59 GMT+0530 (India Standard Time)
+[debug] [2022-06-16T19:30:59.653Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-06-16T19:30:59.656Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-06-16T19:30:59.721Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-16T19:30:59.721Z] > authorizing via signed-in user (ranjitkaran360@gmail.com)
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project e-commerce-website-proj-sem6. This may result in unexpected behavior. 
+[debug] [2022-06-16T19:30:59.752Z] [hub] writing locator at C:\Users\msi\AppData\Local\Temp\hub-e-commerce-website-proj-sem6.json
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage\u001b[22m"}}
+[info] +  functions: Using node@16 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Using node@16 from host."}}
+[debug] [2022-06-16T19:30:59.784Z] defaultcredentials: writing to file C:\Users\msi\AppData\Roaming\firebase\ranjitkaran360_gmail_com_application_default_credentials.json
+[debug] [2022-06-16T19:30:59.786Z] Setting GAC to C:\Users\msi\AppData\Roaming\firebase\ranjitkaran360_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\msi\\AppData\\Roaming\\firebase\\ranjitkaran360_gmail_com_application_default_credentials.json"}}
+[debug] [2022-06-16T19:30:59.787Z] > refreshing access token with scopes: []
+[debug] [2022-06-16T19:30:59.789Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-06-16T19:31:00.216Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Thu, 16 Jun 2022 19:30:57 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-06-16T19:31:00.239Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/e-commerce-website-proj-sem6/adminSdkConfig [none]
+[debug] [2022-06-16T19:31:00.885Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2022-06-16T19:31:00.885Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2022-06-16T19:31:01.072Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/e-commerce-website-proj-sem6/adminSdkConfig 200
+[debug] [2022-06-16T19:31:01.072Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/e-commerce-website-proj-sem6/adminSdkConfig {"projectId":"e-commerce-website-proj-sem6","storageBucket":"e-commerce-website-proj-sem6.appspot.com","locationId":"us-central"}
+[debug] [2022-06-16T19:31:01.104Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/e-commerce-website-proj-sem6/sites 
+[debug] [2022-06-16T19:31:03.194Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/e-commerce-website-proj-sem6/sites 200
+[debug] [2022-06-16T19:31:03.195Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/e-commerce-website-proj-sem6/sites {"sites":[{"name":"projects/e-commerce-website-proj-sem6/sites/e-commerce-website-proj-sem6","defaultUrl":"https://e-commerce-website-proj-sem6.web.app","appId":"1:1000892684782:web:40fd6fb335487d1e5d16ff","type":"DEFAULT_SITE"}]}
+[debug] [2022-06-16T19:31:03.196Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/e-commerce-website-proj-sem6/webApps/1:1000892684782:web:40fd6fb335487d1e5d16ff/config [none]
+[debug] [2022-06-16T19:31:04.655Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/e-commerce-website-proj-sem6/webApps/1:1000892684782:web:40fd6fb335487d1e5d16ff/config 200
+[debug] [2022-06-16T19:31:04.655Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/e-commerce-website-proj-sem6/webApps/1:1000892684782:web:40fd6fb335487d1e5d16ff/config {"projectId":"e-commerce-website-proj-sem6","appId":"1:1000892684782:web:40fd6fb335487d1e5d16ff","storageBucket":"e-commerce-website-proj-sem6.appspot.com","locationId":"us-central","apiKey":"AIzaSyCsQtYiRW2Y-MJd5EZWBfbUnFmJcC5OjwM","authDomain":"e-commerce-website-proj-sem6.firebaseapp.com","messagingSenderId":"1000892684782","measurementId":"G-ZDW2FS76W8"}
+[info] i  hosting: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[debug] [2022-06-16T19:31:04.681Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-06-16T19:31:04.682Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-06-16T19:31:04.682Z] Starting Emulator UI with command {"binary":"node","args":["--dns-result-order=ipv4first","C:\\Users\\msi\\.cache\\firebase\\emulators\\ui-v1.7.0\\server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"--dns-result-order=ipv4first\",\"C:\\\\Users\\\\msi\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.7.0\\\\server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2022-06-16T19:31:04.796Z] Web / API server started at localhost:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at localhost:4000\n"}}
+[info] i  functions: Watching "C:\Users\msi\Desktop\i-kart\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\msi\\Desktop\\i-kart\\functions\" for Cloud Functions..."}}
+[debug] [2022-06-16T19:31:04.967Z] Validating nodejs source
+[debug] [2022-06-16T19:31:07.364Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^9.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-06-16T19:31:07.365Z] Building nodejs source
+[debug] [2022-06-16T19:31:07.365Z] Analyzing nodejs backend spec
+[debug] [2022-06-16T19:31:07.366Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-06-16T19:31:07.668Z] Serving at port 9005
+
+[debug] [2022-06-16T19:31:07.824Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2022-06-16T19:31:07.836Z] shutdown requested via /__/quitquitquit
+
+[info] +  functions[us-central1-api]: http function initialized (http://localhost:5001/e-commerce-website-proj-sem6/us-central1/api). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://localhost:5001/e-commerce-website-proj-sem6/us-central1/api)."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://localhost:4000                │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ localhost:5001 │ http://localhost:4000/functions │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Hosting   │ localhost:5000 │ n/a                             │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2022-06-16T19:32:07.316Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-06-16T19:32:07.317Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-06-16T19:32:07.318Z] Accepted request POST /e-commerce-website-proj-sem6/us-central1/api/payments/create?total=25096 --> us-central1-api
+[debug] [2022-06-16T19:32:07.334Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2022-06-16T19:32:07.335Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2022-06-16T19:32:07.335Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-06-16T19:32:07.335Z] [worker-us-central1-api-307fa46f-e048-43d4-97fe-4474d2b28b20]: Assigning socketPath: \\?\pipe\C:\Users\msi\Desktop\i-kart\functions\6244 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-307fa46f-e048-43d4-97fe-4474d2b28b20]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\msi\\Desktop\\i-kart\\functions\\6244"}}
+[debug] [2022-06-16T19:32:07.336Z] [worker-us-central1-api-307fa46f-e048-43d4-97fe-4474d2b28b20]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-307fa46f-e048-43d4-97fe-4474d2b28b20]: BUSY"}}
+[debug] [2022-06-16T19:32:08.447Z] [runtime-status] [6244] Functions runtime initialized. {"cwd":"C:\\Users\\msi\\Desktop\\i-kart\\functions","node_version":"16.14.2"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [6244] Functions runtime initialized. {\"cwd\":\"C:\\\\Users\\\\msi\\\\Desktop\\\\i-kart\\\\functions\",\"node_version\":\"16.14.2\"}"}}
+[debug] [2022-06-16T19:32:08.448Z] [runtime-status] [6244] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [6244] Disabled runtime features: undefined"}}
+[debug] [2022-06-16T19:32:08.450Z] [runtime-status] [6244] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"C:\\Users\\msi\\Desktop\\i-kart\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [6244] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"C:\\\\Users\\\\msi\\\\Desktop\\\\i-kart\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-06-16T19:32:08.451Z] [runtime-status] [6244] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"C:\\Users\\msi\\Desktop\\i-kart\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [6244] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"C:\\\\Users\\\\msi\\\\Desktop\\\\i-kart\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-06-16T19:32:08.451Z] [runtime-status] [6244] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [6244] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-06-16T19:32:08.452Z] [runtime-status] [6244] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"C:\\Users\\msi\\Desktop\\i-kart\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [6244] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"C:\\\\Users\\\\msi\\\\Desktop\\\\i-kart\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-06-16T19:32:08.485Z] [runtime-status] [6244] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [6244] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-06-16T19:32:08.485Z] [runtime-status] [6244] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.21.2","resolution":"C:\\Users\\msi\\Desktop\\i-kart\\functions\\node_modules\\firebase-functions\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [6244] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"C:\\\\Users\\\\msi\\\\Desktop\\\\i-kart\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-06-16T19:32:08.486Z] [runtime-status] [6244] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"C:\\Users\\msi\\Desktop\\i-kart\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [6244] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"C:\\\\Users\\\\msi\\\\Desktop\\\\i-kart\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-06-16T19:32:08.488Z] [runtime-status] [6244] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"C:\\Users\\msi\\Desktop\\i-kart\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [6244] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"C:\\\\Users\\\\msi\\\\Desktop\\\\i-kart\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-06-16T19:32:08.488Z] [runtime-status] [6244] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"C:\\Users\\msi\\Desktop\\i-kart\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [6244] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"C:\\\\Users\\\\msi\\\\Desktop\\\\i-kart\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-06-16T19:32:08.488Z] [runtime-status] [6244] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.3.0","resolution":"C:\\Users\\msi\\Desktop\\i-kart\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [6244] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"C:\\\\Users\\\\msi\\\\Desktop\\\\i-kart\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-06-16T19:32:08.616Z] [runtime-status] [6244] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [6244] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-06-16T19:32:08.617Z] [runtime-status] [6244] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [6244] Running api in signature http"}}
+[debug] [2022-06-16T19:32:08.620Z] [runtime-status] [6244] Attempting to listen to socketPath: \\?\pipe\C:\Users\msi\Desktop\i-kart\functions\6244 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [6244] Attempting to listen to socketPath: \\\\?\\pipe\\C:\\Users\\msi\\Desktop\\i-kart\\functions\\6244"}}
+[debug] [2022-06-16T19:32:08.623Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-06-16T19:32:08.625Z] [functions] Got req.url=/e-commerce-website-proj-sem6/us-central1/api/payments/create?total=25096, mapping to path=/payments/create?total=25096 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-commerce-website-proj-sem6/us-central1/api/payments/create?total=25096, mapping to path=/payments/create?total=25096"}}
+[debug] [2022-06-16T19:32:08.633Z] [runtime-status] [6244] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [6244] Ephemeral server handling POST request"}}
+[debug] [2022-06-16T19:32:08.640Z] [runtime-status] [6244] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [6244] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-06-16T19:32:08.647Z] [worker-us-central1-api-307fa46f-e048-43d4-97fe-4474d2b28b20]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-307fa46f-e048-43d4-97fe-4474d2b28b20]: IDLE"}}
+[debug] [2022-06-16T19:32:08.647Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-06-16T20:23:37.443Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-06-16T20:23:37.444Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-06-16T20:23:37.445Z] Accepted request POST /e-commerce-website-proj-sem6/us-central1/api/payments/create?total=0 --> us-central1-api
+[debug] [2022-06-16T20:23:37.445Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-06-16T20:23:37.446Z] [worker-us-central1-api-307fa46f-e048-43d4-97fe-4474d2b28b20]: Assigning socketPath: \\?\pipe\C:\Users\msi\Desktop\i-kart\functions\6244 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-307fa46f-e048-43d4-97fe-4474d2b28b20]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\msi\\Desktop\\i-kart\\functions\\6244"}}
+[debug] [2022-06-16T20:23:37.447Z] [worker-us-central1-api-307fa46f-e048-43d4-97fe-4474d2b28b20]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-307fa46f-e048-43d4-97fe-4474d2b28b20]: BUSY"}}
+[debug] [2022-06-16T20:23:37.449Z] [runtime-status] [6244] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [6244] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-06-16T20:23:37.453Z] [runtime-status] [6244] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [6244] Running api in signature http"}}
+[debug] [2022-06-16T20:23:37.456Z] [runtime-status] [6244] Attempting to listen to socketPath: \\?\pipe\C:\Users\msi\Desktop\i-kart\functions\6244 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [6244] Attempting to listen to socketPath: \\\\?\\pipe\\C:\\Users\\msi\\Desktop\\i-kart\\functions\\6244"}}
+[debug] [2022-06-16T20:23:37.462Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-06-16T20:23:37.463Z] [functions] Got req.url=/e-commerce-website-proj-sem6/us-central1/api/payments/create?total=0, mapping to path=/payments/create?total=0 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-commerce-website-proj-sem6/us-central1/api/payments/create?total=0, mapping to path=/payments/create?total=0"}}
+[debug] [2022-06-16T20:23:37.470Z] [runtime-status] [6244] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [6244] Ephemeral server handling POST request"}}
+[debug] [2022-06-16T20:23:37.476Z] [runtime-status] [6244] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [6244] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-06-16T20:23:37.478Z] [worker-us-central1-api-307fa46f-e048-43d4-97fe-4474d2b28b20]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-307fa46f-e048-43d4-97fe-4474d2b28b20]: IDLE"}}
+[debug] [2022-06-16T20:23:37.478Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-06-16T20:27:37.116Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-06-16T20:27:37.117Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-06-16T20:27:37.117Z] Accepted request POST /e-commerce-website-proj-sem6/us-central1/api/payments/create?total=0 --> us-central1-api
+[debug] [2022-06-16T20:27:37.117Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-06-16T20:27:37.117Z] [worker-us-central1-api-307fa46f-e048-43d4-97fe-4474d2b28b20]: Assigning socketPath: \\?\pipe\C:\Users\msi\Desktop\i-kart\functions\6244 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-307fa46f-e048-43d4-97fe-4474d2b28b20]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\msi\\Desktop\\i-kart\\functions\\6244"}}
+[debug] [2022-06-16T20:27:37.117Z] [worker-us-central1-api-307fa46f-e048-43d4-97fe-4474d2b28b20]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-307fa46f-e048-43d4-97fe-4474d2b28b20]: BUSY"}}
+[debug] [2022-06-16T20:27:37.118Z] [runtime-status] [6244] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [6244] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-06-16T20:27:37.120Z] [runtime-status] [6244] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [6244] Running api in signature http"}}
+[debug] [2022-06-16T20:27:37.120Z] [runtime-status] [6244] Attempting to listen to socketPath: \\?\pipe\C:\Users\msi\Desktop\i-kart\functions\6244 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [6244] Attempting to listen to socketPath: \\\\?\\pipe\\C:\\Users\\msi\\Desktop\\i-kart\\functions\\6244"}}
+[debug] [2022-06-16T20:27:37.122Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-06-16T20:27:37.122Z] [functions] Got req.url=/e-commerce-website-proj-sem6/us-central1/api/payments/create?total=0, mapping to path=/payments/create?total=0 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-commerce-website-proj-sem6/us-central1/api/payments/create?total=0, mapping to path=/payments/create?total=0"}}
+[debug] [2022-06-16T20:27:37.124Z] [runtime-status] [6244] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [6244] Ephemeral server handling POST request"}}
+[debug] [2022-06-16T20:27:37.125Z] [runtime-status] [6244] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [6244] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-06-16T20:27:37.126Z] [worker-us-central1-api-307fa46f-e048-43d4-97fe-4474d2b28b20]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-307fa46f-e048-43d4-97fe-4474d2b28b20]: IDLE"}}
+[debug] [2022-06-16T20:27:37.126Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-06-16T20:29:57.902Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-06-16T20:29:57.902Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-06-16T20:29:57.902Z] Accepted request POST /e-commerce-website-proj-sem6/us-central1/api/payments/create?total=0 --> us-central1-api
+[debug] [2022-06-16T20:29:57.902Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-06-16T20:29:57.903Z] [worker-us-central1-api-307fa46f-e048-43d4-97fe-4474d2b28b20]: Assigning socketPath: \\?\pipe\C:\Users\msi\Desktop\i-kart\functions\6244 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-307fa46f-e048-43d4-97fe-4474d2b28b20]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\msi\\Desktop\\i-kart\\functions\\6244"}}
+[debug] [2022-06-16T20:29:57.903Z] [worker-us-central1-api-307fa46f-e048-43d4-97fe-4474d2b28b20]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-307fa46f-e048-43d4-97fe-4474d2b28b20]: BUSY"}}
+[debug] [2022-06-16T20:29:57.903Z] [runtime-status] [6244] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [6244] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-06-16T20:29:57.904Z] [runtime-status] [6244] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [6244] Running api in signature http"}}
+[debug] [2022-06-16T20:29:57.904Z] [runtime-status] [6244] Attempting to listen to socketPath: \\?\pipe\C:\Users\msi\Desktop\i-kart\functions\6244 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [6244] Attempting to listen to socketPath: \\\\?\\pipe\\C:\\Users\\msi\\Desktop\\i-kart\\functions\\6244"}}
+[debug] [2022-06-16T20:29:57.906Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-06-16T20:29:57.906Z] [functions] Got req.url=/e-commerce-website-proj-sem6/us-central1/api/payments/create?total=0, mapping to path=/payments/create?total=0 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-commerce-website-proj-sem6/us-central1/api/payments/create?total=0, mapping to path=/payments/create?total=0"}}
+[debug] [2022-06-16T20:29:57.908Z] [runtime-status] [6244] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [6244] Ephemeral server handling POST request"}}
+[debug] [2022-06-16T20:29:57.909Z] [runtime-status] [6244] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [6244] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-06-16T20:29:57.911Z] [worker-us-central1-api-307fa46f-e048-43d4-97fe-4474d2b28b20]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-307fa46f-e048-43d4-97fe-4474d2b28b20]: IDLE"}}
+[debug] [2022-06-16T20:29:57.911Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-06-16T20:37:41.945Z] Received signal SIGHUP 1
+[debug] [2022-06-17T06:34:29.672Z] ----------------------------------------------------------------------
+[debug] [2022-06-17T06:34:29.675Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\msi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2022-06-17T06:34:29.676Z] CLI Version:   11.0.1
+[debug] [2022-06-17T06:34:29.676Z] Platform:      win32
+[debug] [2022-06-17T06:34:29.677Z] Node Version:  v16.14.2
+[debug] [2022-06-17T06:34:29.684Z] Time:          Fri Jun 17 2022 12:04:29 GMT+0530 (India Standard Time)
+[debug] [2022-06-17T06:34:29.685Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-06-17T06:34:29.775Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-17T06:34:29.776Z] > authorizing via signed-in user (ranjitkaran360@gmail.com)
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project e-commerce-website-proj-sem6. This may result in unexpected behavior. 
+[debug] [2022-06-17T06:34:29.817Z] [hub] writing locator at C:\Users\msi\AppData\Local\Temp\hub-e-commerce-website-proj-sem6.json
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage\u001b[22m"}}
+[info] +  functions: Using node@16 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Using node@16 from host."}}
+[debug] [2022-06-17T06:34:29.871Z] defaultcredentials: writing to file C:\Users\msi\AppData\Roaming\firebase\ranjitkaran360_gmail_com_application_default_credentials.json
+[debug] [2022-06-17T06:34:29.872Z] Setting GAC to C:\Users\msi\AppData\Roaming\firebase\ranjitkaran360_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\msi\\AppData\\Roaming\\firebase\\ranjitkaran360_gmail_com_application_default_credentials.json"}}
+[debug] [2022-06-17T06:34:29.875Z] > refreshing access token with scopes: []
+[debug] [2022-06-17T06:34:29.875Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-06-17T06:34:30.214Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Fri, 17 Jun 2022 06:34:26 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-06-17T06:34:30.231Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/e-commerce-website-proj-sem6/adminSdkConfig [none]
+[debug] [2022-06-17T06:34:30.917Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/e-commerce-website-proj-sem6/adminSdkConfig 200
+[debug] [2022-06-17T06:34:30.917Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/e-commerce-website-proj-sem6/adminSdkConfig {"projectId":"e-commerce-website-proj-sem6","storageBucket":"e-commerce-website-proj-sem6.appspot.com","locationId":"us-central"}
+[debug] [2022-06-17T06:34:30.929Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/e-commerce-website-proj-sem6/sites 
+[debug] [2022-06-17T06:34:32.127Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/e-commerce-website-proj-sem6/sites 200
+[debug] [2022-06-17T06:34:32.127Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/e-commerce-website-proj-sem6/sites {"sites":[{"name":"projects/e-commerce-website-proj-sem6/sites/e-commerce-website-proj-sem6","defaultUrl":"https://e-commerce-website-proj-sem6.web.app","appId":"1:1000892684782:web:40fd6fb335487d1e5d16ff","type":"DEFAULT_SITE"}]}
+[debug] [2022-06-17T06:34:32.127Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/e-commerce-website-proj-sem6/webApps/1:1000892684782:web:40fd6fb335487d1e5d16ff/config [none]
+[debug] [2022-06-17T06:34:33.878Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/e-commerce-website-proj-sem6/webApps/1:1000892684782:web:40fd6fb335487d1e5d16ff/config 200
+[debug] [2022-06-17T06:34:33.878Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/e-commerce-website-proj-sem6/webApps/1:1000892684782:web:40fd6fb335487d1e5d16ff/config {"projectId":"e-commerce-website-proj-sem6","appId":"1:1000892684782:web:40fd6fb335487d1e5d16ff","storageBucket":"e-commerce-website-proj-sem6.appspot.com","locationId":"us-central","apiKey":"AIzaSyCsQtYiRW2Y-MJd5EZWBfbUnFmJcC5OjwM","authDomain":"e-commerce-website-proj-sem6.firebaseapp.com","messagingSenderId":"1000892684782","measurementId":"G-ZDW2FS76W8"}
+[info] i  hosting: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[debug] [2022-06-17T06:34:33.928Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-06-17T06:34:33.928Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-06-17T06:34:33.928Z] Starting Emulator UI with command {"binary":"node","args":["--dns-result-order=ipv4first","C:\\Users\\msi\\.cache\\firebase\\emulators\\ui-v1.7.0\\server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"--dns-result-order=ipv4first\",\"C:\\\\Users\\\\msi\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.7.0\\\\server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2022-06-17T06:34:34.067Z] Web / API server started at localhost:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at localhost:4000\n"}}
+[info] i  functions: Watching "C:\Users\msi\Desktop\i-kart\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\msi\\Desktop\\i-kart\\functions\" for Cloud Functions..."}}
+[debug] [2022-06-17T06:34:34.208Z] Validating nodejs source
+[debug] [2022-06-17T06:34:37.217Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^9.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-06-17T06:34:37.217Z] Building nodejs source
+[debug] [2022-06-17T06:34:37.217Z] Analyzing nodejs backend spec
+[debug] [2022-06-17T06:34:37.219Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-06-17T06:34:37.552Z] Serving at port 9005
+
+[debug] [2022-06-17T06:34:37.791Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2022-06-17T06:34:37.806Z] shutdown requested via /__/quitquitquit
+
+[info] +  functions[us-central1-api]: http function initialized (http://localhost:5001/e-commerce-website-proj-sem6/us-central1/api). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://localhost:5001/e-commerce-website-proj-sem6/us-central1/api)."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://localhost:4000                │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ localhost:5001 │ http://localhost:4000/functions │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Hosting   │ localhost:5000 │ n/a                             │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2022-06-17T06:42:45.586Z] Received signal SIGHUP 1
+[debug] [2022-06-25T11:17:07.797Z] ----------------------------------------------------------------------
+[debug] [2022-06-25T11:17:07.801Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\msi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2022-06-25T11:17:07.802Z] CLI Version:   11.0.1
+[debug] [2022-06-25T11:17:07.802Z] Platform:      win32
+[debug] [2022-06-25T11:17:07.803Z] Node Version:  v16.14.2
+[debug] [2022-06-25T11:17:07.814Z] Time:          Sat Jun 25 2022 16:47:07 GMT+0530 (India Standard Time)
+[debug] [2022-06-25T11:17:07.815Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-06-25T11:17:07.822Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-06-25T11:17:07.924Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-25T11:17:07.924Z] > authorizing via signed-in user (ranjitkaran360@gmail.com)
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project e-commerce-website-proj-sem6. This may result in unexpected behavior. 
+[debug] [2022-06-25T11:17:07.946Z] [hub] writing locator at C:\Users\msi\AppData\Local\Temp\hub-e-commerce-website-proj-sem6.json
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage\u001b[22m"}}
+[info] +  functions: Using node@16 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Using node@16 from host."}}
+[debug] [2022-06-25T11:17:07.983Z] defaultcredentials: writing to file C:\Users\msi\AppData\Roaming\firebase\ranjitkaran360_gmail_com_application_default_credentials.json
+[debug] [2022-06-25T11:17:07.985Z] Setting GAC to C:\Users\msi\AppData\Roaming\firebase\ranjitkaran360_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\msi\\AppData\\Roaming\\firebase\\ranjitkaran360_gmail_com_application_default_credentials.json"}}
+[debug] [2022-06-25T11:17:07.986Z] > refreshing access token with scopes: []
+[debug] [2022-06-25T11:17:07.987Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-06-25T11:17:08.256Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Sat, 25 Jun 2022 11:16:50 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-06-25T11:17:08.284Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/e-commerce-website-proj-sem6/adminSdkConfig [none]
+[debug] [2022-06-25T11:17:08.932Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/e-commerce-website-proj-sem6/adminSdkConfig 200
+[debug] [2022-06-25T11:17:08.933Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/e-commerce-website-proj-sem6/adminSdkConfig {"projectId":"e-commerce-website-proj-sem6","storageBucket":"e-commerce-website-proj-sem6.appspot.com","locationId":"us-central"}
+[debug] [2022-06-25T11:17:08.953Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2022-06-25T11:17:08.954Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2022-06-25T11:17:08.971Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/e-commerce-website-proj-sem6/sites 
+[debug] [2022-06-25T11:17:11.100Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/e-commerce-website-proj-sem6/sites 200
+[debug] [2022-06-25T11:17:11.101Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/e-commerce-website-proj-sem6/sites {"sites":[{"name":"projects/e-commerce-website-proj-sem6/sites/e-commerce-website-proj-sem6","defaultUrl":"https://e-commerce-website-proj-sem6.web.app","appId":"1:1000892684782:web:40fd6fb335487d1e5d16ff","type":"DEFAULT_SITE"}]}
+[debug] [2022-06-25T11:17:11.102Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/e-commerce-website-proj-sem6/webApps/1:1000892684782:web:40fd6fb335487d1e5d16ff/config [none]
+[debug] [2022-06-25T11:17:12.533Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/e-commerce-website-proj-sem6/webApps/1:1000892684782:web:40fd6fb335487d1e5d16ff/config 200
+[debug] [2022-06-25T11:17:12.533Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/e-commerce-website-proj-sem6/webApps/1:1000892684782:web:40fd6fb335487d1e5d16ff/config {"projectId":"e-commerce-website-proj-sem6","appId":"1:1000892684782:web:40fd6fb335487d1e5d16ff","storageBucket":"e-commerce-website-proj-sem6.appspot.com","locationId":"us-central","apiKey":"AIzaSyCsQtYiRW2Y-MJd5EZWBfbUnFmJcC5OjwM","authDomain":"e-commerce-website-proj-sem6.firebaseapp.com","messagingSenderId":"1000892684782","measurementId":"G-ZDW2FS76W8"}
+[info] i  hosting: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[debug] [2022-06-25T11:17:12.626Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-06-25T11:17:12.627Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-06-25T11:17:12.628Z] Starting Emulator UI with command {"binary":"node","args":["--dns-result-order=ipv4first","C:\\Users\\msi\\.cache\\firebase\\emulators\\ui-v1.7.0\\server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"--dns-result-order=ipv4first\",\"C:\\\\Users\\\\msi\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.7.0\\\\server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2022-06-25T11:17:12.799Z] Web / API server started at localhost:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at localhost:4000\n"}}
+[info] i  functions: Watching "C:\Users\msi\Desktop\i-kart\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\msi\\Desktop\\i-kart\\functions\" for Cloud Functions..."}}
+[debug] [2022-06-25T11:17:12.924Z] Validating nodejs source
+[debug] [2022-06-25T11:17:15.716Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^9.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-06-25T11:17:15.717Z] Building nodejs source
+[debug] [2022-06-25T11:17:15.717Z] Analyzing nodejs backend spec
+[debug] [2022-06-25T11:17:15.720Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-06-25T11:17:16.209Z] Serving at port 9005
+
+[debug] [2022-06-25T11:17:16.420Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2022-06-25T11:17:16.429Z] shutdown requested via /__/quitquitquit
+
+[info] +  functions[us-central1-api]: http function initialized (http://localhost:5001/e-commerce-website-proj-sem6/us-central1/api). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://localhost:5001/e-commerce-website-proj-sem6/us-central1/api)."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://localhost:4000                │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ localhost:5001 │ http://localhost:4000/functions │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Hosting   │ localhost:5000 │ n/a                             │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2022-06-25T11:25:03.001Z] File C:\Users\msi\Desktop\i-kart\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\msi\\Desktop\\i-kart\\functions\\index.js changed, reloading triggers"}}
+[debug] [2022-06-25T11:25:04.017Z] Validating nodejs source
+[debug] [2022-06-25T11:25:07.161Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^9.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-06-25T11:25:07.162Z] Building nodejs source
+[debug] [2022-06-25T11:25:07.162Z] Analyzing nodejs backend spec
+[debug] [2022-06-25T11:25:07.163Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-06-25T11:25:07.545Z] Serving at port 9005
+
+[debug] [2022-06-25T11:25:07.824Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2022-06-25T11:25:07.835Z] shutdown requested via /__/quitquitquit
+
+[debug] [2022-06-25T11:25:13.016Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-06-25T11:25:13.016Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-06-25T11:25:13.017Z] Accepted request POST /e-commerce-website-proj-sem6/us-central1/api/payments/create?total=0 --> us-central1-api
+[debug] [2022-06-25T11:25:13.030Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2022-06-25T11:25:13.030Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2022-06-25T11:25:13.030Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-06-25T11:25:13.031Z] [worker-us-central1-api-61a3afdc-fe66-469c-ad51-31c26219ce2f]: Assigning socketPath: \\?\pipe\C:\Users\msi\Desktop\i-kart\functions\2248 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-61a3afdc-fe66-469c-ad51-31c26219ce2f]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\msi\\Desktop\\i-kart\\functions\\2248"}}
+[debug] [2022-06-25T11:25:13.031Z] [worker-us-central1-api-61a3afdc-fe66-469c-ad51-31c26219ce2f]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-61a3afdc-fe66-469c-ad51-31c26219ce2f]: BUSY"}}
+[debug] [2022-06-25T11:25:15.007Z] [runtime-status] [2248] Functions runtime initialized. {"cwd":"C:\\Users\\msi\\Desktop\\i-kart\\functions","node_version":"16.14.2"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2248] Functions runtime initialized. {\"cwd\":\"C:\\\\Users\\\\msi\\\\Desktop\\\\i-kart\\\\functions\",\"node_version\":\"16.14.2\"}"}}
+[debug] [2022-06-25T11:25:15.008Z] [runtime-status] [2248] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2248] Disabled runtime features: undefined"}}
+[debug] [2022-06-25T11:25:15.010Z] [runtime-status] [2248] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"C:\\Users\\msi\\Desktop\\i-kart\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2248] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"C:\\\\Users\\\\msi\\\\Desktop\\\\i-kart\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-06-25T11:25:15.012Z] [runtime-status] [2248] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"C:\\Users\\msi\\Desktop\\i-kart\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2248] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"C:\\\\Users\\\\msi\\\\Desktop\\\\i-kart\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-06-25T11:25:15.012Z] [runtime-status] [2248] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2248] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-06-25T11:25:15.013Z] [runtime-status] [2248] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"C:\\Users\\msi\\Desktop\\i-kart\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2248] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"C:\\\\Users\\\\msi\\\\Desktop\\\\i-kart\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-06-25T11:25:15.056Z] [runtime-status] [2248] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2248] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-06-25T11:25:15.057Z] [runtime-status] [2248] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.21.2","resolution":"C:\\Users\\msi\\Desktop\\i-kart\\functions\\node_modules\\firebase-functions\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2248] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"C:\\\\Users\\\\msi\\\\Desktop\\\\i-kart\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-06-25T11:25:15.058Z] [runtime-status] [2248] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"C:\\Users\\msi\\Desktop\\i-kart\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2248] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"C:\\\\Users\\\\msi\\\\Desktop\\\\i-kart\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-06-25T11:25:15.059Z] [runtime-status] [2248] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"C:\\Users\\msi\\Desktop\\i-kart\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2248] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"C:\\\\Users\\\\msi\\\\Desktop\\\\i-kart\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-06-25T11:25:15.060Z] [runtime-status] [2248] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"C:\\Users\\msi\\Desktop\\i-kart\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2248] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"C:\\\\Users\\\\msi\\\\Desktop\\\\i-kart\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-06-25T11:25:15.060Z] [runtime-status] [2248] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.3.0","resolution":"C:\\Users\\msi\\Desktop\\i-kart\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2248] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"C:\\\\Users\\\\msi\\\\Desktop\\\\i-kart\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-06-25T11:25:15.234Z] [runtime-status] [2248] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2248] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-06-25T11:25:15.235Z] [runtime-status] [2248] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2248] Running api in signature http"}}
+[debug] [2022-06-25T11:25:15.238Z] [runtime-status] [2248] Attempting to listen to socketPath: \\?\pipe\C:\Users\msi\Desktop\i-kart\functions\2248 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2248] Attempting to listen to socketPath: \\\\?\\pipe\\C:\\Users\\msi\\Desktop\\i-kart\\functions\\2248"}}
+[debug] [2022-06-25T11:25:15.242Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-06-25T11:25:15.243Z] [functions] Got req.url=/e-commerce-website-proj-sem6/us-central1/api/payments/create?total=0, mapping to path=/payments/create?total=0 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-commerce-website-proj-sem6/us-central1/api/payments/create?total=0, mapping to path=/payments/create?total=0"}}
+[debug] [2022-06-25T11:25:15.251Z] [runtime-status] [2248] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2248] Ephemeral server handling POST request"}}
+[debug] [2022-06-25T11:25:15.258Z] [runtime-status] [2248] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2248] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-06-25T11:25:15.268Z] [worker-us-central1-api-61a3afdc-fe66-469c-ad51-31c26219ce2f]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-61a3afdc-fe66-469c-ad51-31c26219ce2f]: IDLE"}}
+[debug] [2022-06-25T11:25:15.269Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-06-25T11:28:46.258Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-06-25T11:28:46.259Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-06-25T11:28:46.259Z] Accepted request POST /e-commerce-website-proj-sem6/us-central1/api/payments/create?total=25096 --> us-central1-api
+[debug] [2022-06-25T11:28:46.260Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-06-25T11:28:46.261Z] [worker-us-central1-api-61a3afdc-fe66-469c-ad51-31c26219ce2f]: Assigning socketPath: \\?\pipe\C:\Users\msi\Desktop\i-kart\functions\2248 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-61a3afdc-fe66-469c-ad51-31c26219ce2f]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\msi\\Desktop\\i-kart\\functions\\2248"}}
+[debug] [2022-06-25T11:28:46.261Z] [worker-us-central1-api-61a3afdc-fe66-469c-ad51-31c26219ce2f]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-61a3afdc-fe66-469c-ad51-31c26219ce2f]: BUSY"}}
+[debug] [2022-06-25T11:28:46.263Z] [runtime-status] [2248] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2248] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-06-25T11:28:46.266Z] [runtime-status] [2248] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2248] Running api in signature http"}}
+[debug] [2022-06-25T11:28:46.269Z] [runtime-status] [2248] Attempting to listen to socketPath: \\?\pipe\C:\Users\msi\Desktop\i-kart\functions\2248 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2248] Attempting to listen to socketPath: \\\\?\\pipe\\C:\\Users\\msi\\Desktop\\i-kart\\functions\\2248"}}
+[debug] [2022-06-25T11:28:46.277Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-06-25T11:28:46.279Z] [functions] Got req.url=/e-commerce-website-proj-sem6/us-central1/api/payments/create?total=25096, mapping to path=/payments/create?total=25096 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-commerce-website-proj-sem6/us-central1/api/payments/create?total=25096, mapping to path=/payments/create?total=25096"}}
+[debug] [2022-06-25T11:28:46.285Z] [runtime-status] [2248] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2248] Ephemeral server handling POST request"}}
+[debug] [2022-06-25T11:28:46.294Z] [runtime-status] [2248] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2248] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-06-25T11:28:46.298Z] [worker-us-central1-api-61a3afdc-fe66-469c-ad51-31c26219ce2f]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-61a3afdc-fe66-469c-ad51-31c26219ce2f]: IDLE"}}
+[debug] [2022-06-25T11:28:46.299Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-06-25T11:31:18.555Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-06-25T11:31:18.555Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-06-25T11:31:18.555Z] Accepted request POST /e-commerce-website-proj-sem6/us-central1/api/payments/create?total=0 --> us-central1-api
+[debug] [2022-06-25T11:31:18.555Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-06-25T11:31:18.556Z] [worker-us-central1-api-61a3afdc-fe66-469c-ad51-31c26219ce2f]: Assigning socketPath: \\?\pipe\C:\Users\msi\Desktop\i-kart\functions\2248 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-61a3afdc-fe66-469c-ad51-31c26219ce2f]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\msi\\Desktop\\i-kart\\functions\\2248"}}
+[debug] [2022-06-25T11:31:18.556Z] [worker-us-central1-api-61a3afdc-fe66-469c-ad51-31c26219ce2f]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-61a3afdc-fe66-469c-ad51-31c26219ce2f]: BUSY"}}
+[debug] [2022-06-25T11:31:18.557Z] [runtime-status] [2248] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2248] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-06-25T11:31:18.561Z] [runtime-status] [2248] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2248] Running api in signature http"}}
+[debug] [2022-06-25T11:31:18.564Z] [runtime-status] [2248] Attempting to listen to socketPath: \\?\pipe\C:\Users\msi\Desktop\i-kart\functions\2248 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2248] Attempting to listen to socketPath: \\\\?\\pipe\\C:\\Users\\msi\\Desktop\\i-kart\\functions\\2248"}}
+[debug] [2022-06-25T11:31:18.568Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-06-25T11:31:18.568Z] [functions] Got req.url=/e-commerce-website-proj-sem6/us-central1/api/payments/create?total=0, mapping to path=/payments/create?total=0 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-commerce-website-proj-sem6/us-central1/api/payments/create?total=0, mapping to path=/payments/create?total=0"}}
+[debug] [2022-06-25T11:31:18.572Z] [runtime-status] [2248] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2248] Ephemeral server handling POST request"}}
+[debug] [2022-06-25T11:31:18.577Z] [runtime-status] [2248] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2248] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-06-25T11:31:18.580Z] [worker-us-central1-api-61a3afdc-fe66-469c-ad51-31c26219ce2f]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-61a3afdc-fe66-469c-ad51-31c26219ce2f]: IDLE"}}
+[debug] [2022-06-25T11:31:18.581Z] [work-queue] {"queueLength":0,"workRunningCount":0}
